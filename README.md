@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @shansathish33
+- 👋 Hi, I’m sathish shan
 - 👀 I’m interested in web games and apps
 
 <!---
