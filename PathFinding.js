@@ -286,7 +286,7 @@ class PathFinder{
 					let tempTile = currentTile;
 					
 					while (tempTile.previousTile != undefined){
-						this.path.push(tempTile.previousTile);
+						this.path.unshift(tempTile.previousTile);
 						tempTile = tempTile.previousTile;
 					}
 					
@@ -354,7 +354,6 @@ class PathFinder{
 		}
 		
 		if (_path.length != 0){
-			_path = _path.reverse();
 			_path.push(this.end);
 		}
 		
